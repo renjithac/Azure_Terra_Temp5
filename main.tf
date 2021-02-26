@@ -9,7 +9,7 @@ provider "azurerm" {
 
 # Create a resource group
 resource "azurerm_resource_group" "example" {
-  name     = "resource-demo"
+  name     = "resource-demo1"
   location = "eastus"
   tags = {
     environment = "dev"
